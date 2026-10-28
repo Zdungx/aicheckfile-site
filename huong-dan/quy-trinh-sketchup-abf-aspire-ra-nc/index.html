@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quy trình SketchUp, ABF, Aspire ra file NC từng bước</title>
+<meta name="description" content="Quy trình từ mô hình 3D SketchUp, bóc tách ABF, nesting, xuất DXF đến nạp Aspire bằng Ctrl+F1 và xuất G-code NC hàng loạt cho xưởng nội thất gỗ công nghiệp.">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<link rel="canonical" href="https://aicheckfile.noithatonehome.com/huong-dan/quy-trinh-sketchup-abf-aspire-ra-nc/">
+<meta name="theme-color" content="#14213d">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<meta property="og:locale" content="vi_VN">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI CHECK FILE CNC">
+<meta property="og:title" content="Quy trình SketchUp, ABF, Aspire ra file NC từng bước">
+<meta property="og:description" content="Quy trình từ mô hình 3D SketchUp, bóc tách ABF, nesting, xuất DXF đến nạp Aspire bằng Ctrl+F1 và xuất G-code NC hàng loạt cho xưởng nội thất gỗ công nghiệp.">
+<meta property="og:url" content="https://aicheckfile.noithatonehome.com/huong-dan/quy-trinh-sketchup-abf-aspire-ra-nc/">
+<meta property="og:image" content="https://aicheckfile.noithatonehome.com/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Quy trình SketchUp, ABF, Aspire ra file NC từng bước">
+<meta name="twitter:description" content="Quy trình từ mô hình 3D SketchUp, bóc tách ABF, nesting, xuất DXF đến nạp Aspire bằng Ctrl+F1 và xuất G-code NC hàng loạt cho xưởng nội thất gỗ công nghiệp.">
+<meta name="twitter:image" content="https://aicheckfile.noithatonehome.com/assets/og-image.png">
+
+<link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://aicheckfile.noithatonehome.com/#org", "name": "AI CHECK FILE CNC", "url": "https://aicheckfile.noithatonehome.com/", "logo": "https://aicheckfile.noithatonehome.com/assets/logo.png", "sameAs": ["https://www.facebook.com/1037005959498010", "https://www.youtube.com/@robot-AI-check-file", "https://noithatonehome.com/"], "founder": {"@type": "Person", "name": "Trần Đức Dũng"}, "contactPoint": {"@type": "ContactPoint", "telephone": "+84345313289", "contactType": "customer support", "availableLanguage": "vi"}}, {"@type": "WebSite", "@id": "https://aicheckfile.noithatonehome.com/#website", "url": "https://aicheckfile.noithatonehome.com/", "name": "AI CHECK FILE CNC", "inLanguage": "vi", "publisher": {"@id": "https://aicheckfile.noithatonehome.com/#org"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://aicheckfile.noithatonehome.com/"}, {"@type": "ListItem", "position": 2, "name": "Hướng dẫn", "item": "https://aicheckfile.noithatonehome.com/huong-dan/"}, {"@type": "ListItem", "position": 3, "name": "Quy trình SketchUp, ABF, Aspire ra file NC từng bước", "item": "https://aicheckfile.noithatonehome.com/huong-dan/quy-trinh-sketchup-abf-aspire-ra-nc/"}]}, {"@type": "Article", "headline": "Quy trình SketchUp, ABF, Aspire ra file NC từng bước", "description": "Quy trình từ mô hình 3D SketchUp, bóc tách ABF, nesting, xuất DXF đến nạp Aspire bằng Ctrl+F1 và xuất G-code NC hàng loạt cho xưởng nội thất gỗ công nghiệp.", "datePublished": "2026-10-28", "dateModified": "2026-10-28", "inLanguage": "vi", "mainEntityOfPage": "https://aicheckfile.noithatonehome.com/huong-dan/quy-trinh-sketchup-abf-aspire-ra-nc/", "image": "https://aicheckfile.noithatonehome.com/assets/og-image.png", "author": {"@type": "Person", "name": "Trần Đức Dũng"}, "publisher": {"@id": "https://aicheckfile.noithatonehome.com/#org"}}, {"@type": "VideoObject", "name": "Quy trình SketchUp xuất DXF sang NC chống văng phôi | DXF TO NC PLUS", "description": "Quy trình từ mô hình 3D SketchUp, bóc tách ABF, xếp ván nesting, nạp 38 file DXF vào Aspire bằng Ctrl+F1 đến xuất G-code hàng loạt và soi mô phỏng trên CIMCO Edit.", "thumbnailUrl": ["https://i.ytimg.com/vi/Ln6RyLW28Gk/maxresdefault.jpg", "https://i.ytimg.com/vi/Ln6RyLW28Gk/hqdefault.jpg"], "uploadDate": "2026-10-26", "duration": "PT4M13S", "contentUrl": "https://www.youtube.com/watch?v=Ln6RyLW28Gk", "embedUrl": "https://www.youtube.com/embed/Ln6RyLW28Gk", "inLanguage": "vi", "publisher": {"@id": "https://aicheckfile.noithatonehome.com/#org"}}, {"@type": "VideoObject", "name": "Hướng dẫn chi tiết A-Z: tự động xếp thứ tự cắt và chống văng phôi | DXF TO NC PLUS", "description": "Hướng dẫn từng bước DXF TO NC PLUS v0.2.13: một layer cắt duy nhất, chọn post giảm tốc, bác sĩ chẩn đoán tiền trạm, sửa thứ tự cắt, nạp dự án thực tế 33 tấm ván và xuất NC.", "thumbnailUrl": ["https://i.ytimg.com/vi/KItMjE18KT0/maxresdefault.jpg", "https://i.ytimg.com/vi/KItMjE18KT0/hqdefault.jpg"], "uploadDate": "2026-10-25", "duration": "PT11M40S", "contentUrl": "https://www.youtube.com/watch?v=KItMjE18KT0", "embedUrl": "https://www.youtube.com/embed/KItMjE18KT0", "inLanguage": "vi", "publisher": {"@id": "https://aicheckfile.noithatonehome.com/#org"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Bỏ qua điều hướng</a>
+<header class="top"><div class="wrap bar">
+<a class="brand" href="/"><img src="/assets/logo.png" alt="" width="36" height="36"><span>AI CHECK FILE CNC</span></a>
+<input type="checkbox" id="mn" class="mn-t" aria-label="Mở menu"><label for="mn" class="mn-b" aria-hidden="true">☰</label>
+<nav class="menu" aria-label="Chính"><a href="/">Trang chủ</a><a href="/dxf-to-nc-plus/">DXF TO NC PLUS</a><a href="/ai-check-file-cnc/">AI Check File</a><a href="/huong-dan/" aria-current=page>Hướng dẫn</a><a href="/video/">Video</a><a href="/dich-vu-ra-file-cnc/">Dịch vụ</a><a href="/lien-he/">Liên hệ</a></nav>
+</div></header>
+<main id="main" class="wrap">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Trang chủ</a> › <a href="/huong-dan/">Hướng dẫn</a> › Quy trình SketchUp, ABF, Aspire ra file NC từng bước</nav>
+
+<h1>Quy trình SketchUp, ABF, Aspire ra file NC từng bước</h1>
+<p class="meta">Tác giả: Trần Đức Dũng · Cập nhật 28/10/2026</p>
+<p class="lead">Quy trình chuẩn đang dùng cho một căn hộ thật: từ mô hình 3D đến G-code, qua 4 công cụ. Mỗi bước có mốc thời gian trong video để bạn đối chiếu.</p>
+
+<h2>Tổng quan 6 bước</h2>
+<ol class="steps">
+<li><strong>Mô hình 3D trong SketchUp</strong> (00:00 trong video quy trình).</li>
+<li><strong>Kiểm tra liên kết và bóc tách cấu kiện</strong> bằng <a href="/ai-check-file-cnc/">AI Check File</a> và ABF (00:25).</li>
+<li><strong>Xuất bảng vật tư (BOM) và tem nhãn sản xuất</strong> (00:51).</li>
+<li><strong>Nesting ABF</strong> xếp ván trên khổ tiêu chuẩn 1220 x 2440, in tem nhãn mã vạch đồng bộ danh sách tấm (01:06 đến 01:42).</li>
+<li><strong>DXF TO NC PLUS:</strong> thiết lập né rãnh hút chân không, cắt 2 lần chi tiết nhỏ, gộp một layer cắt (01:42 đến 02:22).</li>
+<li><strong>Nạp vào Aspire và xuất NC:</strong> <code>Ctrl+F1</code> nạp cả loạt DXF, bấm xuất NC hàng loạt (02:22 đến 03:24).</li>
+</ol>
+
+<h2>Bước kiểm soát chất lượng trước khi chạy máy</h2>
+<p>Trước khi lên máy, mở G-code trong CIMCO Edit để soi mô phỏng 3D từng tọa độ và tốc độ tiến dao, đặc biệt đoạn hãm tốc cuối vòng cắt. Phần này ở 03:24 đến 04:03 của video.</p>
+
+<h2>Nối từ nesting sang DXF TO NC PLUS</h2>
+<p>Sau nesting, ABF xuất DXF từng tấm. DXF TO NC PLUS nạp cả thư mục này, kiểm tra tiền trạm rồi xuất NC có tên khớp với tem nhãn, nên thợ máy nhặt đúng tấm. Chi tiết cách kiểm tra xem ở <a href="/huong-dan/kiem-tra-tien-trang-thu-tu-cat/">bài kiểm tra tiền trạm</a>.</p>
+
+<h2>Video đầy đủ</h2>
+<div class="grid"><div class="vcard"><button class="vid" data-yt="Ln6RyLW28Gk" data-title="Quy trình SketchUp xuất DXF sang NC chống văng phôi | DXF TO NC PLUS" aria-label="Phát video: Quy trình SketchUp xuất DXF sang NC chống văng phôi | DXF TO NC PLUS"><img src="https://i.ytimg.com/vi/Ln6RyLW28Gk/hqdefault.jpg" alt="Quy trình SketchUp xuất DXF sang NC chống văng phôi | DXF TO NC PLUS" loading="lazy" width="480" height="360"></button><h3>Quy trình từ 3D SketchUp đến G-code NC</h3><p>Quy trình từ mô hình 3D SketchUp, bóc tách ABF, xếp ván nesting, nạp 38 file DXF vào Aspire bằng Ctrl+F1 đến xuất G-code hàng loạt và soi mô phỏng trên CIMCO Edit.</p><p><a rel="noopener" target="_blank" href="https://youtu.be/Ln6RyLW28Gk">Xem trên YouTube</a> · 4 phút 13 giây</p></div><div class="vcard"><button class="vid" data-yt="KItMjE18KT0" data-title="Hướng dẫn chi tiết A-Z: tự động xếp thứ tự cắt và chống văng phôi | DXF TO NC PLUS" aria-label="Phát video: Hướng dẫn chi tiết A-Z: tự động xếp thứ tự cắt và chống văng phôi | DXF TO NC PLUS"><img src="https://i.ytimg.com/vi/KItMjE18KT0/hqdefault.jpg" alt="Hướng dẫn chi tiết A-Z: tự động xếp thứ tự cắt và chống văng phôi | DXF TO NC PLUS" loading="lazy" width="480" height="360"></button><h3>Hướng dẫn A-Z DXF TO NC PLUS v0.2.13</h3><p>Hướng dẫn từng bước DXF TO NC PLUS v0.2.13: một layer cắt duy nhất, chọn post giảm tốc, bác sĩ chẩn đoán tiền trạm, sửa thứ tự cắt, nạp dự án thực tế 33 tấm ván và xuất NC.</p><p><a rel="noopener" target="_blank" href="https://youtu.be/KItMjE18KT0">Xem trên YouTube</a> · 11 phút 40 giây</p></div></div>
+<div class="note"><strong>Dùng thử 30 ngày, bản quyền theo máy.</strong> Cần link bộ cài hoặc bộ dao mẫu: nhắn <a href="https://zalo.me/0345313289" rel="noopener">Zalo 0345.313.289</a> hoặc inbox <a href="https://www.facebook.com/1037005959498010" rel="noopener" target="_blank">Fanpage AI CHECK FILE CNC</a>. Bản cập nhật mới nhất đăng ở <a href="https://github.com/Zdungx/KCS-UPDATE/releases" rel="noopener" target="_blank">GitHub Releases</a>.</div>
+
+
+<aside class="related"><h2>Xem thêm</h2><ul><li><a href="/dxf-to-nc-plus/">DXF TO NC PLUS</a><span>DXF TO NC PLUS chuyển DXF từ ABF sang G-code NC hàng loạt cho Aspire: một layer cắt, cắt 2 lần chi tiết nhỏ, hãm tốc 50mm cuối vòng, né rãnh mộng. Dùng thử 30 ngày.</span></li><li><a href="/ai-check-file-cnc/">AI Check File (SketchUp)</a><span>Plugin AI Check File trên SketchUp kiểm tra liên kết âm dương, độ dày ván, hở nét, trùng nét trước khi file ra máy CNC. Dùng thử 30 ngày.</span></li><li><a href="/huong-dan/kiem-tra-tien-trang-thu-tu-cat/">Kiểm tra tiền trạm, thứ tự cắt</a><span>Cách dùng bác sĩ chẩn đoán tiền trạm của DXF TO NC PLUS: bắt lỗi chi tiết nhỏ cắt sau tấm lớn, sửa thứ tự cắt, dời điểm xuống dao bằng chuột rồi mới xuất NC.</span></li></ul></aside>
+<section class="channels"><h2>Kênh chính thức</h2><p>Tất cả bài viết, video và phần mềm đều dẫn về cùng một nơi. Chỉ tải phần mềm từ các liên kết dưới đây.</p><div class="chan-row"><a class="chan" rel="me noopener" target="_blank" href="https://www.facebook.com/1037005959498010">Facebook</a><a class="chan" rel="me noopener" target="_blank" href="https://www.youtube.com/@robot-AI-check-file">YouTube</a><a class="chan" rel="me noopener" target="_blank" href="https://github.com/Zdungx/KCS-UPDATE/releases">Tải phần mềm (GitHub)</a><a class="chan" rel="me noopener" target="_blank" href="https://noithatonehome.com/">noithatonehome.com</a></div></section>
+</main>
+<footer class="foot"><div class="wrap">
+<p><strong>AI CHECK FILE CNC</strong> · Phần mềm kiểm tra file và xuất NC cho xưởng nội thất gỗ công nghiệp</p>
+<p>Hỗ trợ kỹ thuật: Zalo <a href="https://zalo.me/0345313289" rel="noopener">0345.313.289</a> (Trần Đức Dũng)</p>
+<p class="foot-links"><a rel="me noopener" target="_blank" href="https://www.facebook.com/1037005959498010">Facebook</a><a rel="me noopener" target="_blank" href="https://www.youtube.com/@robot-AI-check-file">YouTube</a><a rel="me noopener" target="_blank" href="https://github.com/Zdungx/KCS-UPDATE/releases">Tải phần mềm (GitHub)</a><a rel="me noopener" target="_blank" href="https://noithatonehome.com/">noithatonehome.com</a></p>
+<p class="small">© 2026 Trần Đức Dũng · <a href="/kenh-chinh-thuc/">Kênh chính thức</a> · <a href="/sitemap.xml">Sitemap</a></p>
+</div></footer>
+<script>
+document.addEventListener('click',function(e){var b=e.target.closest('[data-yt]');if(!b)return;e.preventDefault();
+var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.yt+'?autoplay=1&rel=0';
+f.title=b.dataset.title||'Video';f.allow='accelerometer;autoplay;encrypted-media;picture-in-picture;fullscreen';f.allowFullscreen=true;
+f.loading='lazy';b.replaceWith(f);});
+</script>
+</body>
+</html>
