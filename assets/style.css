@@ -350,6 +350,8 @@ figure img{max-width:100%;height:auto;border-radius:var(--radius);display:block;
 .toc>ul{margin:0;padding-left:18px}.toc>ul>li{margin:10px 0}
 .toc-steps{margin:6px 0 0;padding-left:24px;columns:2;column-gap:28px;font-size:14.5px}
 @media(max-width:780px){.toc-steps{columns:1}}
+.dl td:last-child a{white-space:nowrap}
+.badge{display:inline-block;background:var(--brand);color:#fff;font-size:12px;font-weight:600;padding:1px 8px;border-radius:99px;margin-left:6px;vertical-align:middle}
 .grp{margin-top:44px}
 .step{margin:26px 0;scroll-margin-top:84px}.step h4{font-size:18px;margin:0 0 6px}
 .step .tip{background:var(--soft);border-left:3px solid var(--brand);padding:8px 12px;border-radius:0 var(--radius-sm) var(--radius-sm) 0;font-size:14.5px}
